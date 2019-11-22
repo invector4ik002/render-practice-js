@@ -1,0 +1,65 @@
+body {
+    width: 1020px;
+    margin: 0 auto;
+}
+.container {
+    height: 100%;
+    background-color: blue;
+    
+}
+.menu {
+    height: 40px;
+    width: 100%;
+    background-color: silver;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* align-items: end; */
+    padding: 10px;
+}
+.link-basket {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    /* margin: 7px 0 0 0; */
+}
+.card-box{
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.card {
+    align-items: center;
+    /* height: 150px; */
+    width: 148px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 5px;
+}
+.card-img {
+    height: 144px;
+    width: 144px;
+    border-radius: 5px;
+    background-color: white; 
+    /* margin: 10px 0 0 0; */
+}
+.card-text {
+    margin: 7px 0 0 0;
+}
+.btn-card {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 7px 0 0 0;
+}
+.btn-card--hover:hover {
+   background-color: white;
+}
