@@ -49,6 +49,7 @@ let creteDate = {
     }
 }
 console.log(creteDate.createId())
+// 
 // let capArr = document.querySelectorAll('#card')
 // let btnCard = document.querySelector('button')
 // let x = Array.from(capArr)
